@@ -1,0 +1,175 @@
+html,body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    position: relative;
+    vertical-align: baseline;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.about,.skills
+.education,.languages,
+.contact,.experience{
+
+    min-height: 330px;
+    max-height:450px;
+}
+
+.black{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size:50px;
+}
+
+.education, .language,
+.contact, .experience{
+    margin-top: 30px;
+}
+
+
+.row1{
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    
+}
+
+.container1{
+
+    text-align:left;
+    padding-left:10px;
+    padding-top:5px;
+    position:static;
+    background: #c7cad4;
+    color:rgb(20, 20, 20);
+}
+
+header img{
+    display: inline-block !important;
+    border: 5px groove rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+header h2{
+    padding-top: 40px;
+}
+
+
+.about{
+    padding :30px;
+    background: DimGrey;
+    font-size:20px;
+}
+
+
+.skills{
+    background: DarkSlateGrey;
+    color: Silver;
+    font-size:20px;
+    padding:19px;
+}
+
+
+.skills .progress{
+    border-radius: 0px;
+    height: 4px;
+}
+
+
+.skills .progress .progress-bar-primary{
+    background:  DimGrey;
+
+}
+
+
+.skills strong{
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+
+.education{
+    padding:15px 15px 30px 15px;
+    background: DarkSlateGrey;
+    color: Silver;
+    font-size: 20px;
+}
+
+
+
+.education .education-content{
+    padding-bottom: 14px;
+}
+
+
+.education h5{
+    display: inline-block;
+    font-weight: bold;
+    font-size:20px;
+    color: DimGrey;
+    
+}
+
+
+.languages{
+    padding:20px;
+    background: DimGrey;
+    margin-top: 30px;
+    
+    font-size:20px;
+}
+
+
+.languages ul{
+    padding: 20px;
+}
+
+
+.languages ul li{
+    padding-bottom: 6px;
+}
+
+
+.contact{
+    padding:30px ;
+    background: DimGrey;
+    font-size:20px;
+    width:400px;
+}
+
+
+.experience{
+    padding:20px 40px 40px 40px;
+    background:DarkSlateGrey;
+    color: Silver;
+    font-size:20px;
+    margin-left:40px;
+}
+
+
+.experience h5{
+    display: inline-block;
+}
+
+
+/* footer section */
+footer {
+    color: #000000e5;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    font-size:20px;
+  }
+           
+
+ 
